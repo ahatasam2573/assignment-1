@@ -1,7 +1,7 @@
 body{
     margin:0;
     font-family: 'Roboto', sans-serif;
-    background-color: whitesmoke;
+    background-color: rgb(247, 232, 232);
 }
 section{
     height: 500px;
@@ -13,12 +13,12 @@ p{
 
 /* --------header area-------- */
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 span{
     color: turquoise;
 }
-.header{
+#header{
     display: flex;
     margin-top: 50px;
 }
@@ -51,23 +51,51 @@ span{
 #decoration{
     text-align: center;
 }
-.box-allignments{
+#box-allignments{
     display: flex;
+}
+#box-allignments div{
+    width: 100%;
+    margin: 20px;
+}
+.one-third{
+    width: 30%;
+}
+.one-third img{
+    width: 30%;
 }
 #first-box{
     background-image: linear-gradient(cyan,white);
     border-radius: 20px;
-    padding:18px 4px 6px 1px;
+    padding:30px 50px 10px 30px;
 }
 #second-box{
     background-image: linear-gradient(rgb(214, 180, 30),rgb(212, 212, 206));
     border-radius: 20px;
-    padding: 20px 10px 5px 20px;
-    margin-left: 5%;
+    padding:30px 50px 10px 30px;
 }
 #third-box{
     background-image: linear-gradient(rgb(11, 206, 206),rgb(143, 135, 135));
     border-radius: 20px;
-    padding: 56px 37px 47px 17px;
-    margin-right: 5%;
+    padding:30px 50px 10px 30px;
+}
+
+/* --------develop area------- */
+#develop-area{
+    display: flex;
+    margin-top: 5%;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: left-corner;
+}
+
+/* ---------- community area------ */
+#community-area{
+    display: flex;
+    margin-top: 5%;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: bottom;
 }
